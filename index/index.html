@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jashwanth's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+      <img src="images/your-photo.jpg" alt="Jashwanth's Photo" id="profile-photo">
+      <h1>Jashwanth</h1>
+      <p>MCA Student | Aspiring Developer</p>
+      <p>MCA Student | Aspiring Developer</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Jashwanth, an MCA student at Loyola Academy, passionate about software development, especially in backend and AI.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>HTML & CSS</li>
+      <li>Java</li>
+      <li>SQL</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Path-following Fire-Fighting Robot (Arduino)</li>
+      <li>Bike Taxi App (In Progress)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: jashwanth@example.com</p>
+    <p>Phone: 6301986139</p>
+    <button id="greetBtn">Click Me</button>
+    <p id="greeting"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jashwanth. All rights reserved.</p>
+  </footer>
+  document.getElementById("greetBtn").addEventListener("click", function() {
+    document.getElementById("greeting").textContent = "Hello! Welcome to my portfolio.";
+});
+</body>
+</html>
